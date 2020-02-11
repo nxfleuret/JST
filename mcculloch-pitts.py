@@ -11,23 +11,23 @@ def binstep(x, th):
 # print(y)
 # print(binstep(y))
 
-x = [0, 0]
+x = [1, 0]
 
 #step biner logika AND
 def AND(x):
-    w = [1,1]
+    w = [3,4]
     y_in = np.dot(x, w)
 
-    return binstep(y_in, 2)
+    return binstep(y_in, 5)
 
 # print(AND(x))
 
 # step biner logika OR
 def OR(x):
-    w = [2,2]
+    w = [3,4]
     y_in = np.dot(x, w)
 
-    return binstep(y_in, 1)
+    return binstep(y_in, 3)
 
 # print(OR(x))
 
